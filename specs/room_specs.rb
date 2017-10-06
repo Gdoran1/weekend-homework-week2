@@ -17,7 +17,7 @@ class TestRoom < MiniTest::Test
    end
 
    def test_room_starts_with_zero_guest()
-    actual = @room3.number_of_guest()
+    actual = @room.number_of_guest()
     assert_equal(0, actual)
    end
 
