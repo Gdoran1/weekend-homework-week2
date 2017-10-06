@@ -11,8 +11,11 @@ class Club
   def cash_in_till()
     return @till.length()
   end
-  # def guest_has_cash()
-  #   return @cash
-  # end
+
+  def pay_entry_cost
+    return @till.count + @entry_cost
+  end
+
+   
 
 end

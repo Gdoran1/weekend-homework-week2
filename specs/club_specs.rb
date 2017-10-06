@@ -24,15 +24,13 @@ class TestClub < MiniTest::Test
    assert_equal(0, actual)
   end
 
+  def test_cash_can_be_added_to_till()
+    actual = @club.pay_entry_cost()
+    assert_equal(10, actual)
+  end
 
-  # def test_guest_has_cash()
-  #   actual = @guest.guest_has_cash()
-  #   assert_equal(100, actual)
-  # end
-
-
-  # def test_guest_can_afford_entry_fee()
-  #   actual = @guest.cash()
+  # def test_guest_can_afford_entry_cost()
+  #   actual = @guest.()
   #   assert_equal(10, actual)
   # end
 end
