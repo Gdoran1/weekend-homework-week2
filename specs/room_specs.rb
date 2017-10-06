@@ -5,7 +5,6 @@ require_relative('../room.rb')
 class TestRoom < MiniTest::Test
 
   def setup()
-
      @room = Room.new("Disco")
      @room2 = Room.new("Pop")
      @room3 = Room.new("Indie")
